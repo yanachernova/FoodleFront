@@ -115,7 +115,7 @@ const Map = props => {
       address?
       (<div>
         <AsyncMap
-          googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8axmdtKqjxbpL2YjHFUx4sVED9xgpZU&libraries=places"
+          googleMapURL=""
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: "500px", width: "100%" }} />}
           mapElement={<div style={{ height: `100%` }} />}
