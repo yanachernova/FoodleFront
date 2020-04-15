@@ -18,7 +18,7 @@ function Facebook() {
     else {
         fbContent = (
             <FacebookLogin
-                appId="899123617197875"
+                appId=""
                 autoLoad={false}
                 fields="name, email, picture"
                 callback={responseFacebook}
